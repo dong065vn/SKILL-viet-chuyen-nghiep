@@ -10,6 +10,7 @@
 | `/baocao_thuctap` | Viết báo cáo thực tập (30-50 trang) | `/baocao_thuctap "Công tác tuyển dụng tại Công ty ABC"` |
 | `/doan_totnghiep` | Viết đồ án tốt nghiệp (50-100+ trang) | `/doan_totnghiep "Nâng cao chất lượng nhân lực..."` |
 | `/nckh` | Viết NCKH sinh viên | `/nckh "Các yếu tố ảnh hưởng đến..."` |
+| `/literature_review_table` | Tạo bảng tổng quan tài liệu | `/literature_review_table "Quyết định mua hàng online"` |
 
 ---
 
@@ -67,6 +68,7 @@
 | `trich_dan` | Trích dẫn | `@trich_dan [APA/IEEE] [loại] [thông tin]` |
 | `phan_tich` | Phân tích | `@phan_tich [phương pháp] [vấn đề]` |
 | `bien_tap` | Biên tập | `@bien_tap [loại]` |
+| `literature_review_table` | Bảng tổng quan tài liệu | `@literature_review_table [loại] [đề tài]` |
 
 ### Chi tiết Skill commands
 
@@ -118,6 +120,15 @@
 @bien_tap all "kiểm tra tất cả"
 ```
 
+#### @literature_review_table
+```
+@literature_review_table tạo cơ_bản "đề tài"
+@literature_review_table tạo chi_tiết "đề tài"
+@literature_review_table tạo khái_niệm "thuật ngữ"
+@literature_review_table phân_nhóm theo "tiêu chí"
+@literature_review_table xuất md/csv/docx
+```
+
 ---
 
 ## 📚 Quick Access - Knowledge Base
@@ -127,6 +138,7 @@
 | `apa_style_guide.md` | Hướng dẫn trích dẫn APA |
 | `ieee_style_guide.md` | Hướng dẫn trích dẫn IEEE |
 | `van_phong_khoa_hoc.md` | Hướng dẫn văn phong |
+| `literature_review_table/guide.md` | Hướng dẫn bảng tổng quan tài liệu |
 
 Đường dẫn: `.antigravity/knowledge_base/`
 

@@ -31,11 +31,28 @@ Skill này hỗ trợ việc tìm kiếm, đọc và tổng quan tài liệu kho
 
 ## Literature Review Table
 
-Sử dụng bảng sau để tổng hợp tài liệu:
+> 📊 **Xem hướng dẫn chi tiết:** [`@literature_review_table`](../literature_review_table/SKILL.md)
 
-| STT | Tác giả | Năm | Tiêu đề | Phương pháp | Mẫu | Kết quả chính | Ghi chú |
-|-----|---------|-----|---------|-------------|-----|---------------|---------|
-| 1   |         |     |         |             |     |               |         |
+### Bảng cơ bản (10 cột)
+
+| STT | Tác giả | Năm | Tiêu đề | Tạp chí | Số/Trang | Kết quả NC | Phương pháp | Mẫu | PP Phân tích |
+|-----|---------|-----|---------|---------|----------|------------|-------------|-----|--------------|
+| 1   |         |     |         |         |          |            |             |     |              |
+
+### Bảng chi tiết (bổ sung theo Nguyễn Văn Thắng, 2022)
+
+| Cột bổ sung | Mô tả |
+|-------------|-------|
+| Câu hỏi/Mục tiêu NC | Câu hỏi nghiên cứu chính |
+| Cơ sở lý thuyết | Khung/mô hình lý thuyết |
+| Hạn chế | Hạn chế của nghiên cứu |
+| Bình luận cá nhân | Ý tưởng riêng về việc áp dụng |
+
+### Cách sử dụng
+
+```
+@literature_review_table tạo chi_tiết "đề tài"
+```
 
 ## Nguồn tài liệu uy tín
 
