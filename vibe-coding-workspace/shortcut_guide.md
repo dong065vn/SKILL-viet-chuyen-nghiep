@@ -3,7 +3,7 @@
 ## Quy trình phát triển
 
 ```
-/brainstorm → /prd → /plan → /code → /test → /debug → /verify
+/brainstorm → /prd → /plan → /code → /test → /debug → /verify → /compact
 ```
 
 ---
@@ -19,6 +19,7 @@
 | `/test` | Testing/TDD | Viết tests, fix failures |
 | `/debug` | Fix lỗi | Gặp bug/error |
 | `/verify` | Xác minh hoàn thành | Trước commit/deploy |
+| `/compact` | Reset context | Cần chuyển phiên mới |
 
 ---
 
