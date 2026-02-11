@@ -4,48 +4,71 @@
 
 ### 🎯 Planning Phase
 ```
-/flow → mermaid-expert
-/erd  → database-design, mermaid-expert
-/brain → brainstorming
+/brain → brainstorming, concise-planning, product-manager-toolkit
+/flow  → mermaid-expert, brainstorming, docs-architect
+/erd   → database-design, mermaid-expert, prisma-expert, sql-optimization-patterns
 ```
 
 ### 🔧 Development Phase
 ```
-/setup  → nodejs-patterns, docker-expert
-/prisma → prisma-expert
-/api    → api-patterns
+/setup  → nodejs-backend-patterns, docker-expert, environment-setup-guide
+/prisma → prisma-expert, database-design, sql-optimization-patterns
+/api    → api-patterns, api-design-principles, error-handling-patterns
+/docker → docker-expert, backend-dev-guidelines
 ```
 
 ### 🔐 Auth Phase
 ```
-/auth   → auth-patterns
-/google → auth-patterns (OAuth2)
-/clerk  → clerk-auth
+/auth   → auth-patterns, error-handling-patterns, security-hardening
+/google → auth-patterns, google-oauth-patterns
+/clerk  → clerk-auth-patterns, nextjs-patterns
 ```
 
-### ✅ Testing Phase
+### 🧪 Testing Phase
 ```
-/test → testing-patterns
-/tdd  → testing-patterns
+/test → javascript-testing-patterns, testing-patterns
+/tdd  → testing-patterns, tdd-orchestrator
 ```
 
-### 💅 Polish Phase
+### 🐛 Debug/Fix Phase (MỚI)
 ```
-/ui  → ui-ux-expert, frontend-design
-/css → frontend-design
+/debug → error-detective, debugging-strategies, debugger, error-handling-patterns
+/fix   → fix-review, verification-before-completion, error-handling-patterns
+```
+
+### 🎨 Polish Phase
+```
+/ui  → ui-ux-pro-max, frontend-design, wcag-audit-patterns
+/css → tailwind-design-system, tailwind-patterns, frontend-design
 ```
 
 ### 📦 Release Phase
 ```
-/save   → git-workflows
-/check  → git-workflows
-/deploy → deployment
+/build   → build-optimization, performance-pro
+/exe     → electron-patterns, desktop-app-builder
+/save    → git-conventions, pre-commit-automation
+/check   → verification-before-completion, git-conventions
+/gh      → github-actions-expert, deployment-patterns
+/deploy  → deployment-patterns, vercel-patterns, docker-expert
+/postman → api-design-principles, docs-architect
 ```
 
-## Priority Rules
+---
 
-1. **Luôn bắt đầu với** `/brain` hoặc `/flow`
-2. **Không skip** testing phase
-3. **Checkpoint sau mỗi phase** với `/check`
-4. **UI polish** chỉ sau khi code hoạt động
-5. **Deploy** chỉ sau khi test pass
+## ⚡ Quy tắc ưu tiên
+
+1. **Luôn bắt đầu với** `/brain` hoặc `/flow` (Planning trước)
+2. **KHÔNG skip** Testing Phase (test trước khi deploy)
+3. **Checkpoint** sau mỗi phase → `/check`
+4. **Gặp lỗi?** → `/debug` trước, `/fix` sau khi fix xong
+5. **Polish** UI last → `/ui` + `/css`
+6. **Deploy** chỉ khi tests pass → `/deploy`
+
+### 🐛 Khi nào dùng /debug vs /fix?
+
+| Tình huống | Dùng |
+|-----------|------|
+| Gặp error, chưa biết nguyên nhân | `/debug` |
+| Đã fix xong, cần verify | `/fix` |
+| Bug phức tạp, nhiều layers | `/debug` → sửa → `/fix` |
+| Review code sau khi sửa | `/fix review` |
