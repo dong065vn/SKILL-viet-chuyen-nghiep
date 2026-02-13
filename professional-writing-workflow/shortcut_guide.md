@@ -37,9 +37,37 @@
 
 ## 4 Loại bài viết được hỗ trợ
 
-| Loại | Framework | Đặc điểm |
-|------|-----------|----------|
-| **Bán hàng Storytelling** | PAS/AIDA | Hook → Nỗi đau (60-70%) → Giải pháp → CTA |
-| **Phê phán Xã hội** | Problem-Contrast-Hope | Case quốc tế → So sánh VN → Câu hỏi tu từ |
-| **Kiến thức Chia sẻ** | List+Story+Takeaway | Insight + Ví dụ cụ thể + Actionable |
-| **Motivational** | Hero's Journey+Lesson | Đáy sâu → Vượt qua → Bài học |
+| Loại | Framework | Phong cách | Đặc điểm |
+|------|-----------|------------|----------|
+| **Bán hàng Storytelling** | PAS/AIDA | Friend + Guide | Hook → Nỗi đau (60-70%) → Giải pháp → CTA |
+| **Phê phán Xã hội** | Problem-Contrast-Hope | Expert + Innovator | Case quốc tế → So sánh VN → Câu hỏi tu từ |
+| **Kiến thức Chia sẻ** | List+Story+Takeaway | Guide + Expert | Insight + Ví dụ cụ thể + Actionable |
+| **Motivational** | Hero's Journey+Lesson | Motivator + Friend | Đáy sâu → Vượt qua → Bài học |
+
+## 🎨 Hệ thống Phong cách Viết
+
+### Cách hoạt động
+- Mỗi loại bài có **phong cách viết riêng** (Voice, Rhythm, Language, Emotion)
+- Phong cách được định nghĩa trong `writing_styles.md`
+- Khi gặp bài mẫu xuất sắc → lưu vào `reference_styles/` để tái sử dụng
+
+### Thêm Reference Style mới
+```
+1. Phân tích bài viết mẫu → trích xuất đặc trưng phong cách
+2. Tạo file: reference_styles/[loai-bai]-[chu-de]-v1.md
+3. Lần sau gặp bài tương tự → workflow tự động load reference style
+```
+
+### Cấu trúc folder
+```
+professional-writing-workflow/
+├── writing_styles.md           ← 4 phong cách mặc định
+├── reference_styles/           ← Phong cách đã "học" từ bài thực tế
+│   └── phe-phan-xa-hoi-v1.md  ← Từ bài Tiến sĩ TQ
+├── .agent/workflows/
+│   ├── write.md                ← Workflow chính (có PHASE 2.3)
+│   └── research-write.md      ← Workflow nghiên cứu + viết
+├── skill_router.md
+├── shortcut_guide.md
+└── setup_instruction.md
+```

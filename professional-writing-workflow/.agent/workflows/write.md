@@ -220,6 +220,38 @@ Outline 7-8 phần:
 
 ---
 
+## PHASE 2.3 — Áp dụng Phong cách Viết (Hard Gate — KHÔNG được bỏ qua)
+
+Sau khi có outline, BẮT BUỘC load phong cách viết trước khi viết draft.
+
+### Bước 1: Load phong cách mặc định
+- Mở `writing_styles.md` → tìm section tương ứng với nhánh đã chọn ở PHASE 1
+- Đọc toàn bộ: Voice Profile, Rhythm, Language Palette, Emotional Texture, Persuasion Toolkit, DO/DON'T
+
+### Bước 2: Check Reference Styles
+- Kiểm tra folder `reference_styles/` → có file nào trùng loại bài + chủ đề không?
+- **Nếu CÓ** reference style phù hợp → dùng reference style (chi tiết hơn, đã kiểm chứng thực tế)
+- **Nếu KHÔNG** → dùng phong cách mặc định từ `writing_styles.md`
+
+### Bước 3: Inject vào System Prompt
+Kết hợp phong cách đã load vào system prompt cho PHASE 3:
+```
+Phong cách viết cho bài này:
+- Voice: [từ style profile]
+- Rhythm: [từ style profile]
+- Language: [từ style profile]
+- Emotion: [từ style profile]
+- DO: [danh sách DO]
+- DON'T: [danh sách DON'T]
+```
+
+### Bước 4: Lưu phong cách mới (TÙY CHỌN)
+Nếu bài viết hoàn thành xuất sắc → hỏi người dùng có muốn lưu phong cách này vào `reference_styles/` không.
+
+→ Sau khi load style → Chuyển sang **PHASE 2.5**
+
+---
+
 ## PHASE 2.5 — Thư viện Hook (20+ mẫu tiếng Việt)
 
 ### Hook Gây tò mò
