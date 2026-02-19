@@ -1,0 +1,76 @@
+{
+    "document": {
+        "title": "Tam Giác Thành Công — Phân Tích & Lộ Trình",
+        "subtitle": "Phân Tích & Lộ Trình Đạt Mục Tiêu",
+        "framework_label": "🧠 Tư Duy Đúng 70%  |  📘 Kiến Thức Đúng 10%  |  🔧 Công Cụ Đúng 20%"
+    },
+    "colors": {
+        "primary": "#6C63FF",
+        "tu_duy_dung": "#EF4444",
+        "kien_thuc_dung": "#3B82F6",
+        "cong_cu_dung": "#22C55E",
+        "dark_text": "#1F2937",
+        "gray_text": "#6B7280"
+    },
+    "fonts": {
+        "heading": "Arial",
+        "body": "Arial",
+        "sizes": {
+            "title": 28,
+            "heading1": 20,
+            "heading2": 16,
+            "body": 11,
+            "small": 9
+        }
+    },
+    "sections": [
+        {
+            "id": "cover",
+            "type": "cover_page"
+        },
+        {
+            "id": "toc",
+            "type": "table_of_contents"
+        },
+        {
+            "id": "tu_duy_dung",
+            "heading": "Phần 1: 🧠 Tư Duy Đúng (70%) — Thuận Nguyên Lý",
+            "color": "#EF4444",
+            "subsections": [
+                "nguyen_ly",
+                "first_principles",
+                "mental_models",
+                "five_whys",
+                "pareto_top20",
+                "removed_assumptions"
+            ]
+        },
+        {
+            "id": "kien_thuc_dung",
+            "heading": "Phần 2: 📘 Kiến Thức Đúng (10%) — Học Nhanh Nhờ AI",
+            "color": "#3B82F6",
+            "subsections": [
+                "knowledge_gaps",
+                "key_concepts",
+                "curated_resources",
+                "knowledge_map"
+            ]
+        },
+        {
+            "id": "cong_cu_dung",
+            "heading": "Phần 3: 🔧 Công Cụ Đúng (20%) — Luyện Kỹ Năng 20H",
+            "color": "#22C55E",
+            "subsections": [
+                "selected_tools",
+                "practice_plan",
+                "milestones",
+                "proficiency"
+            ]
+        },
+        {
+            "id": "summary",
+            "heading": "Phần 4: Tổng Kết & Kế Hoạch Tiếp Theo",
+            "type": "summary"
+        }
+    ]
+}
