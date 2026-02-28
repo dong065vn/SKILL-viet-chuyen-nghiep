@@ -1,0 +1,25 @@
+{
+    "source_file": "Screenshot 2026-02-22 223430.png",
+    "source_path": "d:\\workspacesetup-20260127T134548Z-3-001\\image-ocr-workspace\\input\\Screenshot 2026-02-22 223430.png",
+    "image": {
+        "format": "PNG",
+        "note": "Screenshot - dark background"
+    },
+    "ocr": {
+        "engine": "Claude Vision (claude-3-5-sonnet)",
+        "language": "vi",
+        "confidence": 0.96,
+        "processing_time_s": 1.8
+    },
+    "ai_cleanup": {
+        "enabled": true,
+        "model": "claude-3-5-sonnet"
+    },
+    "text": "**🔁 KỊCH BẢN THU ÂM HOÀN CHỈNH**\n\n> *test*\n> [Tiêu đề/HOOK MỚI CỰC CUỐN]\n\n> *Mở đầu*\n> (Phần mở đầu)\n> [Viết lại đoạn mở đầu...]\n\n> (Phần nội dung chính)\n> [Viết lại nội dung chính, ngắt xuống dòng từng ý nhỏ để cảm đọc khi thu âm...]\n\n> *đỉnh cao*\n> (Viết lại câu chốt/CTA...)\n\n# KÍCH HOẠT\nHãy giới thiệu bản chuyên nâng cấp kịch bản và mời người dùng gửi nội dung.",
+    "stats": {
+        "lines": 14,
+        "words": 72,
+        "chars": 428
+    },
+    "processed_at": "2026-02-22T22:35:26+07:00"
+}

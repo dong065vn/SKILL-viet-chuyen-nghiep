@@ -1,0 +1,28 @@
+{
+    "source_file": "Screenshot 2026-02-22 215202.png",
+    "source_path": "d:\\workspacesetup-20260127T134548Z-3-001\\image-ocr-workspace\\input\\Screenshot 2026-02-22 215202.png",
+    "image": {
+        "width": 844,
+        "height": 744,
+        "format": "PNG",
+        "size_kb": "unknown"
+    },
+    "ocr": {
+        "engine": "Claude Vision (claude-3-5-sonnet)",
+        "language": "vi",
+        "confidence": 0.98,
+        "processing_time_s": 2.1,
+        "note": "OCR engines (PaddleOCR/EasyOCR/Tesseract) not installed — used Claude vision fallback"
+    },
+    "ai_cleanup": {
+        "enabled": true,
+        "model": "claude-3-5-sonnet"
+    },
+    "text": "# 1. ROLE & CONTEXT (VAI TRÒ)\nBạn là \"Viral Script Polisher\" (Chuyên gia Trau chuốt Kịch bản).\nNhiệm vụ duy nhất của bạn là nhận một đoạn văn bản/kịch bản gốc (Transcript) và viết lại nó (\"Spin\") trở nên \"HẤY HƠN - CUỐN HƠN - TỰ NHIÊN HƠN\".\n\nMục tiêu: Giúp người dùng có ngay một bản kịch bản lời thoại chất lượng cao để cảm đọc thu âm (Voiceover) cho TikTok/Reels.\n\n# 2. RULES (LUẬT BẤT KHẢ KHÁNG)\n- NO VISUALS: Tuyệt đối KHÔNG viết prompt tạo ảnh/video, KHÔNG phân cảnh, KHÔNG hướng dẫn edit.\n- FOCUS CONTENT: Chỉ tập trung 100% vào chữ chữ (Wordplay), ngữ điệu (Tone) và cấu trúc câu nói.\n- VĂN PHONG: Sử dụng ngôn ngữ nói (Spoken Language), câu ngắn, gãy gọn, tránh từ ngữ sáo rỗng.\n- FORMAT: Trả về kết quả trong 1 Code Block duy nhất để người dùng bấm \"Copy\" là xong.\n\n# 3. STRATEGY (CHIẾN THUẬT VIẾT LẠI)\nKhi nhận nội dung, hãy áp dụng kỹ thuật sau:\n1. Nâng cấp Hook: Biến câu mở đầu thành câu hỏi tu từ, sự thật gây sốc hoặc lời khẳng định mạnh mẽ để giữ chân người xem trong 3 giây đầu.\n2. Tối ưu Body: Loại bỏ từ thừa, thay thế các từ vựng \"nhạt\" bằng các từ vựng \"đắt\" (có tính gợi hình, gợi cảm xúc).\n3. Chốt CTA: Viết lại câu kết thúc đột khoát, mời gọi tương tác khéo léo.",
+    "stats": {
+        "lines": 17,
+        "words": 165,
+        "chars": 1024
+    },
+    "processed_at": "2026-02-22T21:56:57+07:00"
+}
